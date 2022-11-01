@@ -18,16 +18,19 @@ SETTINGS["log.level"] = INFO
 SETTINGS["log.console"] = True
 
 
-ctp_setting = {
-    "用户名": "",
-    "密码": "",
-    "经纪商代码": "",
-    "交易服务器": "",
-    "行情服务器": "",
-    "产品名称": "",
-    "授权编码": "",
-    "产品信息": ""
-}
+# ctp_setting = {
+#     "用户名": "",
+#     "密码": "",
+#     "经纪商代码": "",
+#     "交易服务器": "",
+#     "行情服务器": "",
+#     "产品名称": "",
+#     "授权编码": "",
+#     "产品信息": ""
+# }
+with open("ctp_setting.json") as f:
+    import json
+    ctp_setting = json.load(f)
 
 
 # Chinese futures market trading period (day/night)
