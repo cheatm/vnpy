@@ -1,0 +1,2 @@
+vnpy_tushare
+vnpy_sqlite

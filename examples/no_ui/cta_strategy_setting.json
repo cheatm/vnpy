@@ -1,0 +1,16 @@
+{
+    "test1": {
+        "class_name": "EmptyStrategy",
+        "vt_symbol": "IF2303.CFFEX",
+        "setting": {
+            
+        }
+    },
+    "test2": {
+        "class_name": "EmptyStrategy",
+        "vt_symbol": "IF2303.CFFEX",
+        "setting": {
+
+        }
+    }
+}
